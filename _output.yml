@@ -1,0 +1,37 @@
+bookdown::gitbook:
+  dev: svglite
+  highlight: tango
+  split_by: section
+  split_bib: yes
+  css: style.css
+  
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: yes
+      before: |
+        <li><a href="./">My PhD Thesis</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+      toolbar:
+        position: fixed
+        
+    edit:
+      link: https://github.com/abhikumar86/my-publications/edit/master/%s
+      text: "suggest an edit"
+      
+    download: ["pdf"]
+    search: yes
+    sharing:
+      github: yes
+      twitter: yes
+      all: no
+    info: yes
+
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes

@@ -1,0 +1,17 @@
+book_filename: "phd-thesis"
+
+language:
+  ui:
+    chapter_name: "Chapter "
+    
+delete_merged_file: true
+
+repo: https://github.com/Abhikumar86/phd-thesis
+
+output_dir: docs
+
+#rmd_files: ["index.Rmd", "01-intro.Rmd", "02-Diving-In.Rmd"] # manual arrangement of files 
+
+clean: [packages.bib, bookdown.bbl]
+
+new_session: yes

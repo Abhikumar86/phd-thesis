@@ -1,0 +1,63 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* paragraph text justification and double space line */
+p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+/* Right justified text */
+p.flushright {
+  text-align: right;
+}
+
+/* horizontal rule under chapter title */
+.level1 h1 {
+  border-bottom: 2px solid;
+}
+
+/* Reference page hanging and justified */
+#refs{
+  padding-left: 36px ;
+  text-indent: -36px ;
+  text-align: justify;
+}
+
+/* space between references */
+.csl-entry{
+  margin-bottom: 1em;
+}
+
+/* The next two rules make the horizontal line go straight across in top navbar */
+.summary > li:first-child {
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+}
+
+.book .book-summary ul.summary li.divider {
+    height: 0px;
+}
+
+/*____Code Chunks____*/
+
+.sourceCode pre {
+  margin: 0 !important; /* makes space above and below symmetrical*/
+}
+
+.sourceCode {
+  margin-bottom: 0.85em; /* adds same amount of margin as a <p> would */
+}
