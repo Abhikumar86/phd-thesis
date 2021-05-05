@@ -19,7 +19,7 @@ url: 'http\://abhikumar86.github.io/phd-thesis/'
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Preface
+# Preface {-}
 
 
 # Acknowledgements {.unnumbered}
